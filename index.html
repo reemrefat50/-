@@ -1,0 +1,170 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عطور ريم</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #aa0061;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #aa0061;
+    }
+
+    .hero {
+      background-color: #ffe4f0;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #aa0061;margin-top: 10px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #aa0061;
+      margin-bottom: 20px;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+    }
+
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">عطور ريم</div>
+      <div></div>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>مرحباً بكم في عطور ريم</h1>
+    <p>استمتعوا بروائح تأسر الحواس، وثبات يدوم طويلاً.</p>
+  </div>
+
+  <div class="section" id="products">
+    <h2>منتجاتنا</h2>
+    <div class="products-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=مسك+بودر" alt="مسك الباودر" />
+        <p>مسك الباودر - 8 دينار</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=مخمريه" alt="مخمريه الجسم" />
+        <p>مخمريه الجسم - 50 دينار</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x150?text=عطر+فاخر" alt="عطر فاخر" />
+        <p>عطر فاخر - قريباً</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2>من نحن</h2>
+    <p>عطور ريم تقدم لكِ تشكيلات مميزة من العطور، المسك، والمخمريات بجودة عالية وثبات يدوم. هدفنا رضاكِ وتألقكِ.</p>
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة © 2025 عطور ريم
+  </footer>
+
+  <a class="whatsapp-btn" href="https://wa.me/2189xxxxxxx" target="_blank" title="تواصلي معنا">
+    🟢
+  </a>
+
+</body>
+</html>
+```
+        <a href="#home">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#about">من نحن</a>
+    }
+
+    .hero p {
+      font-size: 18px;
